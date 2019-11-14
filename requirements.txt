@@ -1,0 +1,9 @@
+# Flask Framework
+Flask
+
+# MySQL
+PyMySQL
+
+# Flask Packages
+Flask-Script
+Flask-SQLAlchemy
