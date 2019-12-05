@@ -5,7 +5,7 @@ from wtforms.fields.html5 import EmailField
 class RegisterForm(FlaskForm):
     fullname = StringField('Nome Completo', [validators.Required()])
     email = EmailField('Email', [validators.Required()])
-    username = StringField('Nome de usuário', [validators.Required(), validators.Length(min=4, max=25)])
+    username = StringField('Nome de usuario', [validators.Required(), validators.Length(min=4, max=25)])
     password = PasswordField('Senha', [validators.Required(), 
                                        validators.EqualTo('confirm', message='As senhas devem ser iguais.'), 
                                        validators.Length(min=4, max=80)])
