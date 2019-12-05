@@ -7,3 +7,4 @@ PyMySQL
 # Flask Packages
 Flask-Script
 Flask-SQLAlchemy
+flask-wtf
